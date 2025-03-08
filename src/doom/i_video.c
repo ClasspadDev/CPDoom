@@ -45,7 +45,7 @@
 #define POINTER_WARP_COUNTDOWN	1
 
 #define CAS_FRAMEBUFFER ((short *)0x8C000000)
-#define CAS_LCD_REFRESH ((void (*)(void))0x8003733E)
+#define CAS_LCD_REFRESH ((void (*)(void))0x800373B0) // 8003733E)
 
 #define LINE_SIZE 1024
 
